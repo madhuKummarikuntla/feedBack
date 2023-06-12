@@ -1,0 +1,73 @@
+/* Write your CSS code here. */
+.app-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+}
+.mini-emoji-con {
+  background-color: #fff;
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  border-radius: 30px;
+}
+.mini-head {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  width: 600px;
+  text-align: center;
+  padding: 20px;
+}
+.list-con {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px;
+}
+.li-con {
+  list-style-type: none;
+  padding: 5px;
+}
+.button {
+  display: flex;
+  background: none;
+  border-width: 0px;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.img {
+  height: 100px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.spanEl {
+  text-align: center;
+}
+.wish-con {
+  background-color: #fff;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+}
+.img1 {
+  height: 50px;
+  width: 80px;
+  text-align: center;
+}
